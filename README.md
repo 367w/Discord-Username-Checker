@@ -1,68 +1,68 @@
+Discord Username Checker
 
-[![Hits](https://hits.sh/github.com/Cloudzik1337/DiscordUsernameChecker.svg)](https://hits.sh/github.com/silentsoft/Cloudzik1337/DiscordUsernameChecker)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-# CloudChecker !!Tokenless!!
+Un outil rapide et simple pour vérifier la disponibilité de pseudos Discord spécifiques.
+Idéal pour trouver des usernames rares, clean, OG ou personnalisés avant qu’ils soient pris.
 
-CloudChecker is a Python script for checking the availability of Discord usernames using a list of combinations and proxies. It leverages multi-threading to perform checks concurrently.
+✨ Fonctionnalités
+Vérification automatique de usernames Discord
+Support des listes de pseudos personnalisés
+Vérification rapide et optimisée
+Interface simple à utiliser
+Affichage clair des usernames disponibles / pris
+Support des fichiers .txt
+Logs propres et lisibles
+Léger et rapide
 
-## Features
-- Username availability check on Discord API
-- Multi-threaded for faster execution
-- Proxy support for avoiding rate limits
-- RPS (Requests Per Second) monitoring
-- Error logging for troubleshooting
-- Should work on linux
+📦 Installation
 
-## Showcase
+Clone le repository :
 
+git clone https://github.com/367w/Discord-Username-Checker.git
+cd Discord-Username-Checker
 
-https://github.com/Cloudzik1337/DiscordUsernameChecker/assets/92876777/8066235e-91c8-4580-bc5f-138a619453aa
+Installe les dépendances :
 
-![image](https://github.com/Cloudzik1337/DiscordUsernameChecker/assets/92876777/97153fdc-0548-4d8d-882b-532fbf9b7a1c)
-
-
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-- requests
-
-## Installation
-
-### Video Tutorial 
-
-https://github.com/Cloudzik1337/DiscordUsernameChecker/assets/92876777/757d3d04-603e-449c-83c8-817e1f5c1f3c
-
-
-### For windows user
-1. Run `run.bat`
-   
-### Text Tutorial
-1. Clone the repository:
-
-```bash
-git clone https://github.com/cloudzik1377/CloudChecker.git
-cd CloudChecker
-```
-2. Install requirements
-```bash
 pip install -r requirements.txt
-```
-3. Run cloud_checker.py
-```bash
-python cloud_checker.py
-```
 
-## Usage
-1. Configure your proxies by adding them to the proxies.txt file.
-2. [CheapProxies](https://www.wtfproxy.com/?ref=o8hX4mfY5hfhFUSZEl146) here 3 usd / gb
-3. (Proxyless) works but thread sleeps on ratelimit (ultra slow)
-4. Customize the script by adjusting parameters like the length of the usernames, the number of threads, etc.
-5. Execute the script, and it will start checking the availability of Discord usernames.
-## Usage Dictionary Validator
-1. Run file
-2. Enter ammount of thread (for smaller than 5k dont use more than 5)
-3. Similiar + Hits will be saved to BetterNames.txt
-## Additional Information
-1. Author: @cloudzik1377
-2. Discord: discord.cloudzik.me
+🚀 Utilisation
+
+Ajoute tes pseudos dans le fichier :
+
+Checker.py (en haut)
+
+Exemple :
+
+shadow
+velocity
+night
+
+Puis lance le tool :
+
+python checker.py
+📷 Exemple
+[AVAILABLE] shadow
+[TAKEN] velocity
+[TAKEN] night
+
+🛠️ Technologies
+Python
+Requests
+Threading
+Colorama
+⚠️ Disclaimer
+
+Cet outil est destiné à un usage éducatif et personnel uniquement.
+Respecte les Conditions d’Utilisation de Discord lors de son utilisation.
+
+⭐ Support
+
+Si le projet t’aide :
+
+Mets une étoile au repository
+Fork le projet
+Propose des améliorations
+👤 Auteur
+
+Développé par Kaiz 🚀
+
+Discord : q354 
