@@ -6,8 +6,8 @@ import sys
 from datetime import datetime
 
 # ================= CONFIG =================
-TARGET_USERNAMES = ["v.y", "2uz"]
-WEBHOOK_URL = "https://discord.com/api/webhooks/1508620494990217337/e8DnjKEY1-X2J2w9MhzccuF4xlvxX2ULcZv_riVZl5DKvQFyeiL19_xKFeAUTZs6uAvk"
+TARGET_USERNAMES = ["", ""]
+WEBHOOK_URL = ""
 
 CHECK_INTERVAL_SEC = 300  # 5 minutes
 
@@ -25,7 +25,7 @@ def send_webhook(username):
     now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
     payload = {
-        "content": f"# 👑🚨 @everyone A LA DATE DU {now}, TON USERNAME **{username}** EST DISPONIBLE !"
+        "content": f"# 🚨 @everyone A LA DATE DU {now}, TON USERNAME **{username}** EST DISPONIBLE !"
     }
 
     try:
