@@ -6,8 +6,8 @@ pip install -r requirements.txt
 
 cls
 
-echo Assuming successful installation, starting cloud_checker.py in 2 seconds
+echo Assuming successful installation, starting Checker.py in 2 seconds
 
 timeout /t 2
 
-py cloud_checker.py
+py Checker.py 
