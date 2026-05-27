@@ -1,3 +1,5 @@
+TUTO ICI : https://youtu.be/OZszrijbE14?si=SDZ6GeUprF50AUuE 
+---------------------------------------------------------------------------------
 # Discord Username Checker
 
 Un outil rapide et simple pour vérifier la disponibilité de pseudos Discord spécifiques.
